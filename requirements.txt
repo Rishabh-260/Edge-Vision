@@ -1,0 +1,11 @@
+# Install a PyTorch/torchvision pair built for your platform, then install these
+# packages in the same environment as Jupyter. torchao must be compatible with
+# the installed PyTorch version for the PT2E x86 quantization section.
+torch>=2.6,<3.0
+torchvision>=0.21,<1.0
+torchao>=0.13,<1.0
+jupyter>=1.0
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0
